@@ -1,0 +1,37 @@
+# 依赖
+node_modules/
+vendor/
+
+# 构建产物
+dist/
+build/
+out/
+*.exe
+*.dll
+
+# 日志
+*.log
+logs/
+
+# 环境变量与密钥
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 运行时缓存
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 项目工具数据
+.workbuddy/
